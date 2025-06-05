@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-cont">
+        <div class="nav-bar">
+            <nav class="nav-cont">
+                <div class="nav">
+                    <div class="first">
+                    <ul class="first-half">
+                        <li><a href="https://www.spotify.com" target="_blank" rel=""><img
+                                    src="assets svg/svgexport-1.svg" alt="" height="30px"
+                                    style="background-color: rgb(35, 34, 34); border-radius: 50%; padding: 7px;"></a>
+                        </li>
+                        <li><a href="#" target="_blank" rel=""><img src="assets svg/svgexport-2.svg" alt=""
+                                    height="30px"
+                                    style=" padding: 7px;background-color: rgb(35, 34, 34); border-radius: 50%;"></a>
+                        </li>
+                        <li>
+                            <div class="searchbar">
+                                <div class="icon"><a target="_blank" href="#"><img src="assets svg/svgexport-3.svg"
+                                            alt=""></a></div>
+                                <div class="input"><input type="search" name="search" id=""
+                                        placeholder="What do you want to play?"></div>
+                                <div class="browse"><a target="_blank" href="#"><img src="assets svg/svgexport-5.svg"
+                                            alt=""></a></div>
+                            </div>
+                        </li>
+                        </ul>
+                    <ul class="second-half">
+                        <li><a href="#" target="_blank" rel="">Premium</a></li>
+                        <li><a href="#" target="_blank" rel="">Support</a></li>
+                        <li><a href="#" target="_blank" rel="">Download</a></li>
+                        <li>
+                            <div class="line">|</div>
+                        </li>
+                        <li><a href="#" target="_blank" rel="" style="display: flex; gap: 5px; justify-content: center; align-items: center;"><img
+                                    src="assets svg/svgexport-6.svg" alt="" height="20px">Install Apps</a></li>
+                        <li><a href="#" target="_blank" rel="">sign up</a></li>
+                        <li><button type="button" class="btn" style="font-weight: 800;">Log In</button></li>
+                    </ul>
+                    <ul class="openbtn"><li><button type="button" onclick="opennav()" class="btnclicknav"><img src="assets svg/noun-menu-848362.svg" alt="" height="30" width="30"></button></li></ul>
+                </div>
+                <ul class="second-half2">
+                        <li><a href="#" target="_blank" rel="">Premium</a></li>
+                        <li><a href="#" target="_blank" rel="">Support</a></li>
+                        <li><a href="#" target="_blank" rel="">Download</a></li>
+                        <li><a href="#" target="_blank" rel="" style="display: flex; gap: 5px; justify-content: center; align-items: center;"><img
+                                    src="assets svg/svgexport-6.svg" alt="" height="20px">Install Apps</a></li>
+                        <li><a href="#" target="_blank" rel="">sign up</a></li>
+                        <li><button type="button" class="btn" style="font-weight: 800;">Log In</button></li>
+                        <!-- <li><button type="button><img src="assets svg/icons8-menu.svg" alt="" height="20" width="20"></button></li> -->
+                    </ul>
+                </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="side-conts">
+            <div class="side-leftcont">
+                <div class="heading-library">
+                    <div class="head">
+                        <a href="#" style="display: flex; gap:5px; justify-content: center; align-items: center;"><img
+                                src="assets svg/svgexport-7.svg" alt="">Your
+                            Library</a>
+                    </div>
+                    <div class="buttonadd"><a href="#"><img src="assets svg/svgexport-8.svg" alt=""></a></div>
+                </div>
+                <div class="cont-box">
+                    <div class="cont1">
+                        <div class="a" style="color: white;">Create your first playlist</div>
+                        <div class="b" style="color: white;">it's easy we'll help you</div>
+                        <div class="button">
+                            <button type="button">Create Playlist</button>
+                        </div>
+                    </div>
+                    <div class="cont2">
+                        <div class="a" style="color: white;">Let's find some podcast to follow</div>
+                        <div class="b" style="color: white;">we'll keep you updated on new episodes</div>
+                        <div class="button">
+                            <button type="button">Browse Podcast</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-opt">
+                    <ul class="list">
+                        <li><a target="_blank" href="#">Legal</a></li>
+                        <li><a target="_blank" href="#">Safety & Privacy</a></li>
+                        <li><a target="_blank" href="#">Privacy Policy</a></li>
+                        <li><a target="_blank" href="#">Cookies</a></li>
+                        <li><a target="_blank" href="#">About Us</a></li>
+                        <li><a target="_blank" href="#">Accessibility</a></li>
+                        <li><a target="_blank" href="#">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="foot">
+                    <button type="button"><img src="assets svg/svgexport-9.svg" alt="" height="20px"
+                            width="20px">English</button>
+                </div>
+            </div>
+            <div class="side-rightcont1">
+                <div class="rightcont1">
+                    <div class="heading"><a href="">
+                            <h1>Popular Artist</h1>
+                        </a></div>
+                    <div class="img-cont">
+                        <div class="img"><a target="_blank" href=""><img
+                                    src="assets img/ab67616100005174cb6926f44f620555ba444fca.jpeg" alt="">
+                                <h4 style="color: white;">Pritam</h4>
+                                <h4>Artist</h4>
+                            </a></div>
+                        <div class="img"><a target="_blank" href=""><img
+                                    src="assets img/ab6761610000e5eb5ba2d75eb08a2d672f9b69b7.jpeg" alt="">
+                                <h4 style="color: white;">Arijit singh</h4>
+                                <h4>Artist</h4>
+                            </a></div>
+                        <div class="img"><a target="_blank" href=""><img
+                                    src="assets img/sachin-and-jigar-172331928-1x1.webp" alt="">
+                                <h4 style="color: white;">A.R. Rahman</h4>
+                                <h4>Artist</h4>
+                            </a></div>
+                        <div class="img"><a target="_blank" href=""><img
+                                    src="assets img/ab6761610000e5eb90b6c3d093f9b02aad628eaf.jpeg" alt="">
+                                <h4 style="color: white;">Sachin-jigar</h4>
+                                <h4>Artist</h4>
+                            </a></div>
+                        <div class="img"><a target="_blank" href=""><img
+                                    src="assets img/ab6761610000e5ebc40600e02356cc86f0debe84.jpeg" alt="">
+                                <h4 style="color: white;">Atif Aslam</h4>
+                                <h4>Artist</h4>
+                            </a></div>
+                    </div>
+                </div>
+                <div class="rightcont2">
+                    <div class="heading2"><a href="">
+                            <h1>Popular songs and Albums</h1>
+                        </a>
+                    </div>
+                    <div class="img-cont2">
+                    <div class="png"><a target="_blank" href="#"><img
+                                src="assets img/ab67616d0000b273ddaabc10aebdc619c1c9504c.jpeg"
+                                alt="">
+                            <h4 class="x">Sanam teri Kasam(official music video)</h4>
+                            <h4 class="y">Himesh Reshammaiya,Sameer ranjan,Manish chaudhari</h4>
+                        </a></div>
+                    <div class="png"><a target="_blank" href="#"><img src="assets img/ab67616d00001e026404721c1943d5069f0805f3.jpeg" alt="">
+                            <h4 class="x">Aashiqui 2</h4>
+                            <h4 class="y">Mithoon,Ankit tiwari,jeet ganguly</h4>
+                        </a></div>
+                    <div class="png"><a target="_blank" href="#"><img src="assets img/ab67616d0000b273aad3f4b601ae8763b3fc4e88.jpeg" alt="">
+                            <h4 class="x">Glory</h4>
+                            <h4 class="y">Yo Yo Honey Singh</h4>
+                        </a></div>
+                    <div class="png"><a target="_blank" href="#"><img src="assets img/MV5BODA4MjM2ODk4OF5BMl5BanBnXkFtZTcwNDgzODk1OQ@@._V1_.jpg" alt="">
+                            <h4 class="x">Yeh Jawaani Hai Deewani</h4>
+                            <h4 class="y">Pritam</h4>
+                        </a></div>
+                    <div class="png"><a target="_blank" href="#"><img src="assets img/ab67616d0000b273f150d9f2e5e8148e5032fd7d.jpeg" alt="">
+                            <h4 class="x">Who(Remixes)</h4>
+                            <h4 class="y">Jimin</h4>
+                        </a></div>
+                    <div class="png"><a target="_blank" href="#"><img src="assets img/ab67616d0000b27379f4a87c23143f0abb14c279.jpeg" alt="">
+                            <h4 class="x">Mismatched(Remixes)-3 mismatched cast</h4>
+                            <h4 class="y">mismatched cast</h4>
+                        </a></div>
+                    </div>
+                </div>
+                <div class="rightcont3">
+                    <div class="heading3">
+                        <a href=""><h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-weight: 700;">Popular Radio</h1></a>
+                    </div>
+                    <div class="img-cont3">
+                        <div class="xng"><a href=""><img src="assets img/64_en.jpeg" alt=""><h4 class="r">with Atif aslam, mohit chauhan, pritam</h4></a></div>
+                        <div class="xng"><a href=""><img src="assets img/63_en.jpeg" alt=""><h4 class="r">with sachin jigar, mithoon chakravarti, amit trivedi</h4></a></div>
+                        <div class="xng"><a href=""><img src="assets img/61_en.jpeg" alt=""><h4 class="r">with Vishal shekha, atif aslam, A.R. Rehman</h4></a></div>
+                        <div class="xng"><a href=""><img src="assets img/60_en.jpeg" alt=""><h4 class="r">with kiran Aujla, shubh, sidhu moosewala</h4></a></div>
+                        <div class="xng"><a href=""><img src="assets img/57_en.jpeg" alt=""><h4 class="r">with kishore kumar, mohammad rafi</h4></a></div>
+                        <div class="xng"><a href=""><img src="assets img/54_en.jpeg" alt=""><h4 class="r">with Anirudh ravichander, A.R. Rahman and harris</h4></a></div>
+                    </div>
+                </div>
+                <div class="rightcont4">
+                    <div class="heading4"><a href=""><h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 700;">Featured Charts</h1></a></div>
+                    <div class="img-cont4">
+                    <div class="cng"><a href=""><img src="assets img/58_region_de_default.jpg" alt=""><h4>Your weekly update of the most Played Songs of this Week</h4></a></div>
+                    <div class="cng"><a href=""><img src="assets img/65_region_global_default.jpg" alt=""><h4>Your Weekly Update of the most replayed Songs</h4></a></div>
+                    <div class="cng"><a href=""><img src="assets img/69_region_global_default.jpg" alt=""><h4>Your Daily Update of the most viral Tracks</h4></a></div>
+                    <div class="cng"><a href=""><img src="assets img/68_region_global_default.jpg" alt=""><h4>Your Daily Update of the mostly Replayed Songs</h4></a></div>
+                    <div class="cng"><a href=""><img src="assets img/58_region_de_default.jpg" alt=""><h4>Top 50 Most liked songs by you</h4></a></div>
+                    <div class="cng"><a href=""><img src="assets img/50_region_de_default.jpg" alt=""><h4>Top 50 Most Viral Songs of the week</h4></a></div>
+                    </div>
+                </div>
+                <div class="rightcont5">
+                    <div class="heading5"><a href=""><h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 700;">India's Best</h1></a></div>
+                    <div class="img-cont5">
+                        <div class="nng"><a href=""><img src="assets img/33_ab676161000051749e528993a2820267b97f6aae.jpeg" alt=""><h4>Most Hottest tracks from your I-pop Bollywood</h4></a></div>
+                        <div class="nng"><a href=""><img src="assets img/43_ab67616100005174982cd0568dc2bb9e2f813092.jpeg" alt=""><h4>Superhits from your favourite heroes</h4></a></div>
+                        <div class="nng"><a href=""><img src="assets img/ab67706f0000000213c0e9696b1b67551355fa64.jpeg" alt=""><h4>Top bollywood hits for you</h4></a></div>
+                        <div class="nng"><a href=""><img src="assets img/ab67706f0000000264ff9c60d031ae013f43abe3.jpeg" alt=""><h4>Most popular Artists from india for you</h4></a></div>
+                        <div class="nng"><a href=""><img src="assets img/ab67706f0000000241958ea71003a05cb3d7ccc3.jpeg" alt=""><h4>Top Punjabi Hits for you</h4></a></div>
+                        <div class="nng"><a href=""><img src="assets img/ab67706f0000000241d850fa743e1ebf012a686e.jpeg" alt=""><h4>Top harayanvi superhits</h4></a></div>
+                    </div>
+                </div>
+                <div class="foot2">
+                    <div class="foot-list">
+                        <ul class="li lis">
+                            <li><h2>Company</h2></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">For the record</a></li>
+                        </ul>
+                        <ul class="li2 lis">
+                            <li><h2>Communities</h2></li>
+                            <li><a href="">For Artist</a></li>
+                            <li><a href="">Developers</a></li>
+                            <li><a href="">Advertising</a></li>
+                            <li><a href="">vendors</a></li>
+                            <li><a href="">Investors</a></li>
+                        </ul>
+                        <ul class="li3 lis">
+                            <li><h2>Useful Links</h2></li>
+                            <li><a href="">Support</a></li>
+                            <li><a href="">Free mobile app</a></li>
+                        </ul>
+                        <ul class="li4 lis">
+                            <li><h2>Spotify Plans</h2></li>
+                            <li><a href="">Premium Individual</a></li>
+                            <li><a href="">Premium Duo</a></li>
+                            <li><a href="">Premium Family</a></li>
+                            <li><a href="">Premium Student</a></li>
+                            <li><a href="">Spotify free</a></li>
+                        </ul>
+                        <ul class="li5 lis">
+                            <li><button type="button"><img src="assets img/23_9d12f4e2-ccc8-4158-9206-9d60868d4e30.svg" alt=""></button></li>
+                            <li><button type="button"><img src="assets img/24_3e25cebb-e53d-411e-ac5a-909e1fd96971.svg" alt=""></button></li>
+                            <li><button type="button"><img src="assets img/25_04d4ea3b-b1e6-4726-a726-f2894baf3743.svg" alt=""></button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="playarea">
+                    <div class="btns"><button type="button" class="prev"><img src="assets svg/svgexport-11.svg" alt=""></button></div>
+                    <div class="btns"><button type="button" class="play"><img src="assets svg/svgexport-15.svg" alt=""></button></div>
+                    <div class="btns"><button type="button"  class="next"><img src="assets svg/svgexport-13.svg" alt=""></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

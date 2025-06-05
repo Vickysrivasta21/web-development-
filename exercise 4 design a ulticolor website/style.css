@@ -1,0 +1,73 @@
+:root {
+    --background-color: rgb(16, 16, 17);
+    --color:green;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--background-color);
+    height:100px;
+    position: sticky;
+    border-radius: 3px;
+    top:0px;
+}
+ a{
+    text-decoration: none;
+}
+.box a{
+    --color:rgb(33, 9, 245);
+    color: var(--color);
+}
+.box ul li{
+    display:inline;
+    position: relative;
+    top : 55px;
+    border: 2px solid black;
+    margin: 20px 5px 5px 15px;
+    --background-color: yellow;
+    background-color: var(--background-color);
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+main>p{
+    padding: 10px;
+    width:85%;
+    height:200px;
+    overflow-y: auto;
+    margin-left: 200px;
+    color:rgb(122, 21, 254);
+    text-shadow: 2px 2px 8px blue;
+}
+.box ul li:hover{
+    color:rgb(70, 5, 247);
+    background-color: white;
+    font-size: 18px;
+    text-decoration:underline;
+}
+.low ul{
+    padding: 3px;
+    margin: 1px;
+    list-style:inside;
+    border :3px solid purple;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width:12vw;
+    height:100px;
+    background-color: rgb(243, 208, 213);
+    box-shadow: 2px 2px 6px rgb(242, 119, 242);
+    position: fixed;
+    top:110px;
+    left: 3px;
+    overflow: auto;
+}
+.low a:hover{
+    color:rgb(251, 5, 165);
+    font-size: 18px;
+    text-decoration: underline;
+
+}

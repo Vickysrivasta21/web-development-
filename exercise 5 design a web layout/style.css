@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.boxes{
+    margin: 0;
+    padding: 0;
+    border:2px solid blue;
+    height:130px;
+    position:sticky;
+    top:0px;
+    background-color: rgb(59, 101, 253);
+}
+.clipper li{
+    background-color: aqua;
+    display: inline-flex;
+    border:2px solid black;
+    padding: 10px 25px;
+    margin: -6px 8px;
+    border-radius: 25px;
+    position:relative;
+    top:8px;
+    left :10px;
+}
+.x{
+    background-color: rgba(5, 21, 94, 0.193);
+    color:white;
+    font-weight: 200px;
+    font-size: 20px;
+    border:2px solid black;
+    border-radius: 25px;
+    padding: 5px 5px;
+    position: relative;
+    top:-27px;
+    left:450px;
+}
+.y{
+    position: relative;
+    top:-30px;
+    left:455px;
+    border:3px solid black;
+    border-radius: 30px;
+    padding: 8px;
+    width:20%;
+}
+.one img{
+    display: inline;
+    border:2px solid black;
+    border-radius: 50%;
+    width:3%;
+    height:3%;
+    position:relative;
+    top:2px;
+    left:8px;
+}
+.cont img{
+    border:1px solid black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 9px black;
+    float:left;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+.cont{
+    width:85%;
+    margin-left: 15%;
+    margin-top: 12px;
+}
+.cont>p{
+    overflow: auto;
+}
+.cont1 img{
+    border:1px solid black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 9px black;
+    float:right;
+    margin-left: 18px;
+    margin-bottom: 5px;
+}
+.cont1{
+    width:85%;
+    margin-left: 15%;
+    margin-top: 12px;
+}
+.cont1>p{
+    overflow: auto;
+}
+.imgfix>img{
+    background-color: aliceblue;
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    height: 110px;
+    width: 110px;
+    border:2px solid black;
+    border-radius: 50%;
+}
+.cont2 img{
+    border:2px solid black;
+    border-radius: 50%;
+    box-shadow: 2px 2px 9px black;
+    float:left;
+    margin-right:15px;
+}
+.cont2{
+    margin-top:12px;
+    margin-left:15%;
+    width:85%;
+}
+p::first-letter{
+    font-size: 50px;
+}
+.newwrapper{
+    color:green;
+    font-size: 30px;
+    border:3px solid black;
+    margin-right:15%;
+    margin-left:15%;
+    padding:30px 5%;
+    position: relative;
+    top:50px;
+    left:40px;
+    border-radius: 65px;
+    width:55%;
+}
+.cards ul{
+    border:2px solid black;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width:13.5%;
+    margin-top:-1600px;
+    margin-left:3px;
+    height:500px;
+    background-color: rgb(197, 186, 251);
+    box-shadow:2px 2px 25px inset rgb(35, 35, 244);
+    list-style:inside;
+    padding-top:10px;
+    padding-left:4px;
+}
+.cards li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-style: oblique;
+}
+.foot>footer{
+    border:2px solid black;
+    height:200px;
+    position:relative;
+    bottom:-1170px;
+    left:1px;
+    right:1px;
+    background-color: black;
+}
+.myfoot{
+    display:flex;
+}
+.mini{
+    border:3px solid black;
+    position: absolute;
+    top:5px;
+    left:35%;
+    height:60%;
+    width:10%;
+    list-style:none;
+    color:aliceblue;
+    margin-right: 8%;
+    overflow-y: visible;
+}
+.mini2{
+    border:3px solid black;
+    position: absolute;
+    top:5px;
+    left:45%;
+    height:60%;
+    width:10%;
+    list-style: none;
+    color:white;
+    margin-left: 8%;
+}
+.link{
+    position: absolute;
+    top:150px;
+    left:300px;
+    text-align: center;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    color:white;
+    width:50%;
+}
+a{
+    text-decoration: none;
+    color:red;
+}
+input::placeholder{
+    font-style: italic;
+    font-size: 15px;
+}
+.boxes ul li:hover{
+    background-color: aqua;
+    list-style: inside;
+    font-size: 20px;
+    text-decoration: underline;
+    color:rgb(50, 5, 249);
+}
+.cards ul li:hover{
+    color:blueviolet;
+    list-style: inside;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.myfoot ul li:hover{
+    font-size: 16px;
+    list-style: inside;
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+    color:blue;
+}

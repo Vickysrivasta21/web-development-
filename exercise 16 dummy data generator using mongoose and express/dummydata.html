@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy data generator</title>
+    <style>
+        input {
+            width: 300px;
+            height: 100px;
+            background-color: red;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            transition: background-color 0.5s;
+        }
+
+        input:hover {
+            background-color: white;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="button" value="click to generate data">
+</body>
+<script>
+    let input = document.getElementsByTagName('input')[0]
+    let namearr = ['avnish', 'vikas', 'nimisha', 'jinny', 'lexi', 'sundarshyam', 'pyarelal']
+    let lang = ['python', 'java', 'javscript', 'c/c++', 'ruby']
+    let city = ['newyork', 'tamilnadu', 'lucknow', 'delhi', 'ghaziabad', 'kolkata', 'mumbai', 'pune', 'hyderabad']
+
+    input.addEventListener("click", () => {
+        fetch('/data', {
+            method: "POST", headers: { 'content-type': 'application/json' }
+            , body: JSON.stringify({ name: namearr[(Math.floor(Math.random() * namearr.length))], lang: lang[(Math.floor(Math.random() * lang.length))], city: city[(Math.floor(Math.random() * city.length))] })
+        })
+    })
+</script>
+
+</html>

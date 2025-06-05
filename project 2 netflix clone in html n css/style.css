@@ -1,0 +1,304 @@
+.nav-bar{
+    position: absolute;
+    top:5px;
+    left:180px;
+    display: flex;
+    width:70%;
+    z-index: 10;
+    justify-content: space-between;
+}
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    position: static;
+    width:100%;
+}
+.back-image{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/154a9550-ce07-4e28-819c-63185dd849f8/web/IN-en-20250106-TRIFECTA-perspective_27b02e7c-f668-4639-9e82-1a5485084b2a_large.jpg);
+    height:80vh;
+    width:100%;
+    filter: brightness(28.1%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index:0;
+}
+.nav-cont1 ul{
+    display: flex;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    z-index:12;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    top:15em;
+    left:27em;
+}
+.listcontent{
+    list-style: none;
+}
+.mainheading{
+    height:20vh;
+    width:40vw;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 2000;
+}
+.mid-heading{
+    height:5vh;
+    width:40vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sec-heading{
+    height:5vh;
+    width:40vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color:rgb(242, 237, 237);
+}
+.submit input[type=email]
+{
+    padding:16px 8px;
+    height:3vh;
+    border-radius: 8px;
+    width:25vw;
+    background-color: black;
+    color: white;
+    border:0.8px solid rgb(176, 172, 172);
+}
+.submit input[type=button]
+{
+    padding:10px 4px;
+    height:8vh;
+    border-radius: 8px;
+    width:10vw;
+    color:white;
+    font-size: 22px;
+    background-color: rgba(255, 0, 0, 0.856);
+}
+.a select{
+    padding: 7px 8px;
+    background-color: black;
+    color: white;
+    height:5vh;
+    width:7vw;
+    border: 1px solid rgb(179, 173, 173);
+    border-radius: 3px;
+    margin-right: 7px;
+    margin-top:10px;
+}
+.button-nav input[type=button]{
+        padding: 5px 4px;
+        background-color: rgb(243, 8, 8);
+        color: white;
+        height:5.5vh;
+        width:6vw;
+        font-size: 14px;
+        border-radius: 6px;
+        margin-left: 7px;
+        margin-top:10px;
+}
+main{
+    background-color: black;
+    height:280vh;
+    position: absolute;
+    top:35em;
+    /* border:2px solid white; */
+    width:100%;
+}
+.movies-cont1{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height:48vh;
+    overflow-x: scroll;
+    top:9em;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.movies-cont1 img{
+    width:200px;
+    height:290px;
+    margin: 1px 15px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.form select{
+    background-color: black;
+    padding:5px 9px;
+    font-size: 15px;
+    width:9vw;
+    color: white;
+    margin: 1px 8px;
+    border-radius: 7px;
+}
+.trend .h2{
+    margin:3px 8px;
+}
+.trend{
+    position: absolute;
+    top:1em;
+    display: flex;
+    flex-direction: column;
+    height: 17vh;
+    justify-content: space-around;
+    width: 90%;
+    color:white;
+    margin:2px 80px;
+    /* border:2px solid white; */
+} 
+.cont2{
+    position: absolute;
+    top:38em;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    margin: 1px 70px;
+    padding: 1px 30px;
+    /* border: 2px solid white; */
+}
+.head{
+    color:white;
+}
+.cont2-items{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    column-gap: 45px;
+    color:white;
+}
+.c{
+    height: 20vh;
+    align-self: flex-end;
+}
+.imgbox{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height:36vh;
+    width:20vw;
+    /* border: 2px solid white; */
+    border-radius: 12px;
+    padding:13px 10px;
+    background-color: rgb(39, 22, 52);
+    box-shadow: -15px -15px 40px inset black;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    position: absolute;
+    top:64em;
+    width: 90%;
+    margin:1px 120px;
+    height: 97vh;
+    color: white;
+}
+.question-container{
+    display: flex;
+    flex-direction: column;
+}
+.headingques{
+    color: white;
+    padding:5px 15px
+}
+.q{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    width:95%;
+    height: 12vh;
+    background-color: rgb(54, 51, 51);
+    margin: 5px 15px;
+    padding: 5px 12px;
+    align-items: center;
+}
+.lastlinemain{
+    position: absolute;
+    top:110em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    left:200px;
+    height: 25vh;
+    justify-content: center;
+}
+.headinglast{
+    color: white;
+    height: 6vh;
+}
+.submit-email input[type=email]
+{
+    width: 45vw;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(163, 157, 157);
+    padding: 22px 12px;
+    border-radius: 12px;
+}
+.submit-email button[type=button]{
+    width:15vw;
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    padding:17px 1px;
+    font-size: 25px;
+}
+footer{
+    position: absolute;
+    top:160em;
+    height: 70vh;
+    width: 100%;
+    margin:1px 200px;
+    /* background-color: black; */
+}
+.footcontainer{
+    display: flex;
+    flex-direction: column;
+    gap:45px;
+    width: 80%;
+    align-items: start;
+    color: rgb(197, 189, 189);
+}
+.lastlist{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.lastlist li{
+    list-style: none;
+    margin:10px 2px;
+}
+.lastlist a{
+    text-decoration: none;
+    color: rgb(197, 189, 189);
+}
+.headend a{
+    color: rgb(205, 198, 198);
+}
+.select select{
+    width:8vw;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+}
+.lastlist li:hover{
+    text-decoration: underline;
+}
+.b  h3{
+    color: rgb(181, 176, 176);
+    font-weight: 50px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

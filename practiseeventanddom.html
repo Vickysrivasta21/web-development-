@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practise html dom and events</title>
+    <style>
+        .cont {
+            height: 50vh;
+            width: 80vw;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .c {
+            height: 80px;
+            width: 70px;
+        }
+
+        .b {
+            height: 20vh;
+            width: 30vw;
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .listin {
+            display: none;
+            position: static;
+        }
+
+        .listc:hover .listin {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            height: 20vh;
+            width: 15vw;
+        }
+        .listbin {
+            display: none;
+            position: static;
+        }
+
+        .beneathlist:hover .listbin {
+            position: absolute;
+            left: 100px;
+            display: flex;
+            flex-direction: column;
+            height: 20vh;
+            width: 15vw;
+        }
+         li{
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <div class="cont">
+            <div class="item1 c"></div>
+            <div class="item2 c"></div>
+            <div class="item3 c"></div>
+            <div class="item4 c"></div>
+        </div>
+
+        <ul class="list">
+            <li>home</li>
+            <li>about</li>
+            <li class="listc">contact
+                <ul class="listin">
+                    <li>office</li>
+                    <li>class</li>
+                    <li class="beneathlist">homeaddress > 
+                        <ul class="listbin">
+                            <li>contact home</li>
+                            <li>contact tower</li>
+                            <li>contact office</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="buttons">
+            <button class="btn1 b">click to add html</button>
+            <button class="btn2 b">click to add html</button>
+            <button class="btn3 b">click to add html</button>
+        </div>
+    </main>
+    <script src="practisehtmldomandevent.js"></script>
+</body>
+
+</html>

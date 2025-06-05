@@ -1,0 +1,98 @@
+.container{
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    margin-left:5vw;
+    margin-right:5vw;
+    row-gap: 80px;
+    margin-top: 5vh;
+}
+@media screen and (max-width:450px)
+{
+    .container{
+        grid-template-columns: 50vw;
+        width:50vw;
+        row-gap: 15px;
+    }
+    
+}
+.first1{
+    display: grid;
+    grid-template-rows: 15vh  15vh;
+    border-radius: 20px;
+    width:25vw;
+    background-color: rgb(248, 243, 243);
+}
+.second2{
+    display: grid;
+    grid-template-rows: 15vh  15vh;
+    border-radius: 20px;
+    width:25vw;
+    background-color: rgb(248, 243, 243);
+}
+.third3{
+    display: grid;
+    grid-template-rows: 15vh  15vh;
+    border-radius: 20px;
+    width:25vw;
+    background-color: rgb(248, 243, 243);
+}
+.fourth4{
+    display: grid;
+    grid-template-rows: 15vh  15vh;
+    border-radius: 20px;
+    width:25vw;
+    background-color: rgb(248, 243, 243);
+}
+.fifth5{
+    display: grid;
+    grid-template-rows: 15vh  15vh;
+    border-radius: 20px;
+    width:25vw;
+    background-color: rgb(248, 243, 243);
+}
+.sixth6{
+    display: grid;
+    grid-template-rows: 15vh  15vh;
+    border-radius: 20px;
+    width:25vw;
+    background-color: rgb(248, 243, 243);
+}
+.seventh7{
+    display: grid;
+    grid-template-rows: 15vh  15vh;
+    border-radius: 20px;
+    width:25vw;
+    background-color: rgb(248, 243, 243);
+}
+.container div{
+    align-self: center;
+    justify-self: center;
+}
+.x{
+    border:none;
+    height:3em;
+    width:10em;
+    padding: 5px 7px;
+    border-radius: 8px;
+    background-color: rgb(0, 166, 255);
+}
+.y{
+    border:none;
+    height:3em;
+    width:10em;
+    padding: 5px 7px;
+    border-radius: 8px;
+    background-color: rgb(142, 236, 2);
+}
+.x:hover{
+    background-color: white;
+    border:2px solid rgb(78, 133, 241);
+    border-radius: 8px;
+    color: rgb(93, 171, 249);
+}
+.y:hover{
+    border: 2px solid rgb(20, 203, 20);
+    border-radius: 8px;
+    background-color: white;
+    color: rgb(0, 155, 0);
+}

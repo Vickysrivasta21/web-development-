@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table diagram</title>
+    <style>
+        /* body{
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        } */
+        table{
+            /* border-collapse: collapse; */
+            border:1px solid red;
+            width:70vw;
+            border-spacing: 0px;
+        }
+        td{
+            border:1px solid red;
+            height: 100px;
+        }
+        /* .large{
+            height:200px;
+        }
+        .small{
+            width:25vw;
+        } */
+    </style>
+</head>
+<body>
+        <table>
+            <tr>
+                <td class="large" colspan="2"></td>
+                <td colspan="2" rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td colspan="2"></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td rowspan="1"></td>
+                <td rowspan="1"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td colspan="2"></td>
+                <!-- <td rowspan="1"></td> -->
+                <td rowspan="3" colspan="1"></td>
+                <td rowspan="3" colspan="3"></td>
+            </tr>
+            <tr>
+                <td rowspan="1"></td>
+                <td rowspan="1"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+</body>
+</html>

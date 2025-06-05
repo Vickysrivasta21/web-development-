@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition and animation</title>
+    <style>
+        .container{
+            height: 85vh;
+            width:80vw;
+            border:2px solid black;
+            display: flex;
+            justify-content: start;
+            align-items: end;
+            background-color: blue;
+        }
+        /* .item7:hover{
+            transform: rotate(20deg);
+            background-color: blue;
+        } */
+         @keyframes anime{
+            0%{
+                transform: translateX(0px) translateY(0px);
+            }
+            25%{
+                transform: translateX(200px) translateY(-200px);
+            }
+            50%{
+                width: 50px;
+                height:50px;
+                transform: translateX(400px) translateY(0px);
+            }
+            75%{
+                transform: translateX(600px) translateY(-200px);
+            }
+            100%{
+                width:100px;
+                height:100px;
+                transform: translateX(800px) translateY(0px);
+            }
+         }
+        .item7{
+            height:25px;
+            margin:15px;
+            width:25px;
+            margin:15px;
+            border-radius: 50%;
+            background-color: black;
+            animation-name: anime;
+            animation-timing-function: linear;
+            animation-duration: 4s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item7"></div>
+    </div>
+</body>
+</html>

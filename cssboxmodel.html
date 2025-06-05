@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model boxing padding text and color font properties </title>
+    <style>
+        *{/*universal selectors for css*/
+            margin:0;
+            padding:0;
+        }
+        .box{/*class selectors*/
+            color : darkmagenta;
+            background-color: yellow;
+        }
+        .box1{
+            color:green;
+            padding:10px ;
+            margin:5px;
+            border :2px solid blue;
+            height : 10px;
+        }
+        .box2{
+            color:red;
+            padding:10px ;
+            margin:5px;
+            border :2px solid blue;
+            height : 10px;
+        }
+        p{
+            margin:200px;
+            font-style: italic;
+            padding:20px;
+            width:500px;
+            text-align:center;
+            border-style:inset;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        this is avnish sriastava
+    </div>
+    <div class="box box2">i am good man</div>
+    <h2>paragraphs</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, odio?</p>
+</body>
+</html>

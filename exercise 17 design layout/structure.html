@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <style>
+        button{
+            width: 200px;
+            padding: 12px;
+        }
+        .imgblock{
+            height: 200px;
+            width: 200px;
+        }
+        .lowercontent{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="button flex justify-center"><button type="button" class="button bg-slate-500 items-center m-10 rounded-lg">click me to add data</button></div>
+    <div class="container flex-col w-full min-h-fit m-auto border">
+       <div class="boxes flex max-w-full m-auto gap-5">
+         <div class="imgblock max-h-52 max-w-52- rounded-e-sm"><img src="" alt="">
+            <div class="time relative z-3"></div></div>
+         <div class="content flex-col rounded-r-sm rounded-e-sm">
+            <div class="heading p-16"></div>
+            <div class="lowercontent m-5 flex">
+                <div class="1st"></div>
+                <div class="2nd"></div>
+                <div class="3rd"></div>
+            </div>
+         </div>
+       </div>
+    </div>
+</body>
+<script>
+    let boxes = document.querySelector(".boxes")
+    let i = 0
+    document.querySelector(".button").addEventListener("click",()=>{
+        let head = prompt('enter a suitable heading')
+        let views = prompt('enter views')
+        let subscribers = prompt('enter subs')
+        if(views<10000)
+    {
+        views = (views/100).toFixed(1) + "k"
+    }
+    else if(views<100000)
+    {
+        views = (views/1000).toFixed(1) + "k"
+    }
+    else
+    {
+        views = (views/10000).toFixed(1) + "M"
+    }
+    // https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg%3D%3D&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw%22%29
+    let timedur = prompt("enter time")
+    filldetails(head,views,subscribers,timedur,"https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg%3D%3D&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw%22%29",i)
+    })
+
+
+
+
+    function filldetails(head,views,subscribers,timedur,imglink,i)
+    {
+    let p = `<div class="imgblock"><img src="${imglink}" alt=""></div>
+         <div class="content">
+            <div class="heading">${head}</div>
+            <div class="lowercontent">
+                <div class="1st">${views}</div>
+                <div class="2nd">${subscribers}</div>
+                <div class="3rd">${timedur}</div>
+            </div>
+         </div>`
+        boxes.innerHTML = p
+    // let container = document.querySelectorAll(".container").append(boxes)
+    }
+</script>
+</html>

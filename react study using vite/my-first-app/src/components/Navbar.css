@@ -1,0 +1,82 @@
+*{
+    margin: 7px auto;
+    padding: auto;
+}
+/* nav {
+    background-color: white; 
+    padding: 10px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+li {
+    color: bla;
+    display: inline; 
+    margin-right: 15px; 
+} */
+nav,ul{
+    display: flex;
+}
+ul li{
+    padding: 10px;
+    list-style-type: none;
+    width: 70px;
+}
+ul{
+    gap: 50px;
+}
+nav{
+    min-width: 80%;
+    /* width: 80%; */
+    border-radius: 30px 30px 30px 30px;
+    height: 60px;
+    /* max-height: 50px ; */
+    background-color: beige;
+}
+.drp1,.drp2,.drp3{
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    top: 4px;
+    left: -20px;
+    background-color: rgb(41, 40, 40);
+    width: 150%;
+    border-radius: 12px;
+    color: antiquewhite;
+    transition: opacity 0.2s ease,visibility 0.2s ease;
+}
+.x,.y,.z{
+    position: relative;
+}
+.x:hover .drp1{
+    opacity: 1;
+    visibility: visible;
+}
+.imgl{
+    display: flex;
+    align-self: center;
+    justify-self: flex-start;
+}
+.y:hover .drp2{
+    opacity: 1;
+    visibility: visible;
+}
+.drp1 li{
+    display: flex;
+    justify-content: center;
+}
+.drp2 li{
+    display: flex;
+    justify-content: center;
+}
+.z:hover .drp3{
+    opacity: 1;
+    visibility: visible;
+}

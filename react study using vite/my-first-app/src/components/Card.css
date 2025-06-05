@@ -1,0 +1,17 @@
+.card{
+    text-align: center;
+    width: 30vw;
+    border-radius: 12px 12px 12px 12px;
+    margin: 30px auto;
+    height: 300px;
+    min-height: 200px;
+    border: 2px solid black;
+}
+.card img{
+    object-fit: contain;
+    /* border-radius: 12px; */
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    /* padding: auto; */
+}
