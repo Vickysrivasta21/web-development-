@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 5px 15px;
+}
+li{
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.red{
+    color: yellow;
+    background-color: greenyellow;
+}
