@@ -19,7 +19,7 @@ class lion extends animal{
         console.log("khata hun bhai nonveg")
     }
     jumps(){
-        console.log("ku d nhi paunga ab")
+        console.log("kuch nhi khaunga ab")
     }
 }
 let a = new animal()
