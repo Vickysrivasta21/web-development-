@@ -9,3 +9,8 @@ const page = () => {
 }
 
 export default page
+
+export const metadata = {
+  title: " about Facebook-connect woth the world",
+  description: "about facebook where we connect loved ones",
+};
