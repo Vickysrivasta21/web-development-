@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
-import { useSelector,useDispatch } from 'react-redux' //state hai react hook ke
+import { useSelector,useDispatch } from 'react-redux' //state hai react-redux hook ke
 import { increment,decrement } from './redux/counter/counterslice'
 
 function App() {
